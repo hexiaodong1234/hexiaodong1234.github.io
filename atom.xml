@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>晓东的个人博客</title>
+  
+  <subtitle>兴趣使然的游戏宅--魂系列爱好者</subtitle>
+  <link href="http://hexiaodong1234.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://hexiaodong1234.github.io/"/>
+  <updated>2020-11-23T15:59:33.299Z</updated>
+  <id>http://hexiaodong1234.github.io/</id>
+  
+  <author>
+    <name>晓</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo-melody主题文档记录</title>
+    <link href="http://hexiaodong1234.github.io/2020/11/23/hexo-melody%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3%E8%AE%B0%E5%BD%95/"/>
+    <id>http://hexiaodong1234.github.io/2020/11/23/hexo-melody%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3%E8%AE%B0%E5%BD%95/</id>
+    <published>2020-11-23T15:22:57.000Z</published>
+    <updated>2020-11-23T15:59:33.299Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/2020/11/23/hexo-melody%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3%E8%AE%B0%E5%BD%95/20201124.jpg" alt="wlop大佬nb"> </p><h2 id="1-hexo-melody主题文档记录"><a href="#1-hexo-melody主题文档记录" class="headerlink" title="1.hexo-melody主题文档记录"></a>1.hexo-melody主题文档记录</h2><pre><code>    URL：https://molunerfinn.com/hexo-theme-melody-doc/zh-Hans/#%E7%89%B9%E6%80%A7</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2020/11/23/hexo-melody%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3%E8%AE%B0%E5%BD%95/20201124.jpg&quot; alt=&quot;wlop大佬nb&quot;&gt; &lt;/p&gt;
+&lt;h2 id=&quot;1-hexo</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>“hexo部署github的坑”</title>
+    <link href="http://hexiaodong1234.github.io/2020/11/23/%E2%80%9Chexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E5%9D%91%E2%80%9D/"/>
+    <id>http://hexiaodong1234.github.io/2020/11/23/%E2%80%9Chexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E5%9D%91%E2%80%9D/</id>
+    <published>2020-11-23T08:32:04.000Z</published>
+    <updated>2020-11-23T12:19:20.215Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-这是个头图"><a href="#1-这是个头图" class="headerlink" title="1.这是个头图"></a>1.这是个头图</h2><p><img src="/2020/11/23/%E2%80%9Chexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E5%9D%91%E2%80%9D/1.jpg" alt="看个图"> </p><h2 id="2-发布hexo到GitHub后查看博客无样式"><a href="#2-发布hexo到GitHub后查看博客无样式" class="headerlink" title="2.发布hexo到GitHub后查看博客无样式"></a>2.发布hexo到GitHub后查看博客无样式</h2><p>  hexo deploy 后发现文件确实上传至了github的仓库<br>  问题1：新建的库默认有个main分支，我按别的教程传了master分支<br>  –解决将master设为了默认分支<br>  问2：发现访问hexiaodong1234.github.io始终只有两行字无样式无图，感觉是路径错了<br>  解决：如下图设置了github pages 的分支(选配置文件里设置的branch：这里为master)与文件夹（改为/root）–问题解决<br>  <img src="/2020/11/23/%E2%80%9Chexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E5%9D%91%E2%80%9D/2.png" alt="图2"><br>  ps：网上百度虽好，但也非一番风顺。这个完全是试出来的23333</p><h2 id="3-参考教程"><a href="#3-参考教程" class="headerlink" title="3.参考教程"></a>3.参考教程</h2><pre><code> 1.大佬的视频 https://www.bilibili.com/video/BV1Yb411a7ty?t=336</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-这是个头图&quot;&gt;&lt;a href=&quot;#1-这是个头图&quot; class=&quot;headerlink&quot; title=&quot;1.这是个头图&quot;&gt;&lt;/a&gt;1.这是个头图&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/2020/11/23/%E2%80%9Chexo%E9%83%A8%E7%BD</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>我的第一篇博客</title>
+    <link href="http://hexiaodong1234.github.io/2020/11/23/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://hexiaodong1234.github.io/2020/11/23/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
+    <published>2020-11-23T02:46:14.000Z</published>
+    <updated>2020-11-23T12:18:01.189Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>hello world！</p><h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>内容</p><p>##参考文献</p><p>hexiaodong1234.github.io</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;第一章&quot;&gt;&lt;a href=&quot;#第一章&quot; class=&quot;headerlink&quot; title=&quot;第一章&quot;&gt;&lt;/a&gt;第一章&lt;/h2&gt;&lt;p&gt;hello world！&lt;/p&gt;
+&lt;h2 id=&quot;第二章&quot;&gt;&lt;a href=&quot;#第二章&quot; class=&quot;headerlink&quot; ti</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://hexiaodong1234.github.io/2020/11/23/hello-world/"/>
+    <id>http://hexiaodong1234.github.io/2020/11/23/hello-world/</id>
+    <published>2020-11-23T02:17:20.733Z</published>
+    <updated>2020-11-23T02:17:20.733Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
