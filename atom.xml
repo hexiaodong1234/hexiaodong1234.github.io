@@ -6,7 +6,7 @@
   <link href="http://hexiaodong1234.github.io/atom.xml" rel="self"/>
   
   <link href="http://hexiaodong1234.github.io/"/>
-  <updated>2020-11-24T13:18:28.648Z</updated>
+  <updated>2020-11-27T12:37:04.140Z</updated>
   <id>http://hexiaodong1234.github.io/</id>
   
   <author>
@@ -15,6 +15,46 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>自用笔记本虚拟机centos模拟云服务器配置静态ip问题</title>
+    <link href="http://hexiaodong1234.github.io/2020/11/27/%E8%87%AA%E7%94%A8%E7%AC%94%E8%AE%B0%E6%9C%AC%E8%99%9A%E6%8B%9F%E6%9C%BAcentos%E6%A8%A1%E6%8B%9F%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE%E9%9D%99%E6%80%81ip%E9%97%AE%E9%A2%98/"/>
+    <id>http://hexiaodong1234.github.io/2020/11/27/%E8%87%AA%E7%94%A8%E7%AC%94%E8%AE%B0%E6%9C%AC%E8%99%9A%E6%8B%9F%E6%9C%BAcentos%E6%A8%A1%E6%8B%9F%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE%E9%9D%99%E6%80%81ip%E9%97%AE%E9%A2%98/</id>
+    <published>2020-11-27T12:03:22.000Z</published>
+    <updated>2020-11-27T12:37:04.140Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/2020/11/27/%E8%87%AA%E7%94%A8%E7%AC%94%E8%AE%B0%E6%9C%AC%E8%99%9A%E6%8B%9F%E6%9C%BAcentos%E6%A8%A1%E6%8B%9F%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE%E9%9D%99%E6%80%81ip%E9%97%AE%E9%A2%98/shi.jpg" alt="图片难找"><br>##1.参考博客链接：<br>       1.虚拟机部署centOs ：<a href="https://www.cnblogs.com/jpfss/p/10911463.html">https://www.cnblogs.com/jpfss/p/10911463.html</a><br>       2.虚拟机与主机桥接模式下设置静态ip <a href="https://blog.csdn.net/weixin_39082031/article/details/84874524">https://blog.csdn.net/weixin_39082031/article/details/84874524</a><br>            重点：     由于2中配置需与宿主机网关，子网掩码和dns服务器一致，ip需同一网段<br>                           意味着固定ip的设置，需要宿主机网络环境固定，如换了wifi，需重新配置。<br>                           –感觉要么买云，要么用旧电脑布一个一直开着。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2020/11/27/%E8%87%AA%E7%94%A8%E7%AC%94%E8%AE%B0%E6%9C%AC%E8%99%9A%E6%8B%9F%E6%9C%BAcentos%E6%A8%A1%E6%8B%9F%E4%BA%91%E6%9C%8D%</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>发布博客流程+开发问题记录</title>
+    <link href="http://hexiaodong1234.github.io/2020/11/27/%E5%8F%91%E5%B8%83%E5%8D%9A%E5%AE%A2%E6%B5%81%E7%A8%8B-%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
+    <id>http://hexiaodong1234.github.io/2020/11/27/%E5%8F%91%E5%B8%83%E5%8D%9A%E5%AE%A2%E6%B5%81%E7%A8%8B-%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/</id>
+    <published>2020-11-27T11:17:45.000Z</published>
+    <updated>2020-11-27T12:47:04.751Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-发新图"><a href="#1-发新图" class="headerlink" title="1.发新图"></a>1.发新图</h2><p><img src="/2020/11/27/%E5%8F%91%E5%B8%83%E5%8D%9A%E5%AE%A2%E6%B5%81%E7%A8%8B-%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/xue.jpg" alt="图片难找"> </p><h2 id="2-发布流程"><a href="#2-发布流程" class="headerlink" title="2.发布流程"></a>2.发布流程</h2><pre><code>   切到hexoblog安装目录（_config.yml同级目录）     hexo new &quot;My New Post&quot;  $ hexo clean  $ hexo g 本地测试 $ hexo s 本地测试访问地址：由于博客布在本机虚拟机上，访问地址为centOS所设 http://固定ip:4000 若布在苹果上则直接localhost：4000   部署github   $ hexo d</code></pre><h2 id="3-问题记录：接口A调用的远端内部接口B，"><a href="#3-问题记录：接口A调用的远端内部接口B，" class="headerlink" title="3.问题记录：接口A调用的远端内部接口B，"></a>3.问题记录：接口A调用的远端内部接口B，</h2><pre><code> 接口A为post，接口B也需统一改POST，用get调远端会报错不支持post方法 ps：feigin远端内部调用无用户登录，用于后台内部模块间信息传递，无需登录，也导致取不到用户token。</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-发新图&quot;&gt;&lt;a href=&quot;#1-发新图&quot; class=&quot;headerlink&quot; title=&quot;1.发新图&quot;&gt;&lt;/a&gt;1.发新图&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/2020/11/27/%E5%8F%91%E5%B8%83%E5%8D%9A%E5%AE%A2</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>linux简易安装nacos</title>
