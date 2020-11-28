@@ -6,7 +6,7 @@
   <link href="http://hexiaodong1234.github.io/atom.xml" rel="self"/>
   
   <link href="http://hexiaodong1234.github.io/"/>
-  <updated>2020-11-27T20:07:22.080Z</updated>
+  <updated>2020-11-28T00:33:47.229Z</updated>
   <id>http://hexiaodong1234.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://hexiaodong1234.github.io/2020/11/28/%E2%80%9CMybatis%E7%9A%84Ipage-page%E5%88%86%E9%A1%B5%E4%BD%BF%E7%94%A8%E5%8A%A0%E4%B8%8A%E5%A4%8D%E6%9D%82sql%E6%89%80%E9%81%87%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95%E2%80%9D/"/>
     <id>http://hexiaodong1234.github.io/2020/11/28/%E2%80%9CMybatis%E7%9A%84Ipage-page%E5%88%86%E9%A1%B5%E4%BD%BF%E7%94%A8%E5%8A%A0%E4%B8%8A%E5%A4%8D%E6%9D%82sql%E6%89%80%E9%81%87%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95%E2%80%9D/</id>
     <published>2020-11-27T19:38:06.000Z</published>
-    <updated>2020-11-27T20:07:22.080Z</updated>
+    <updated>2020-11-28T00:33:47.229Z</updated>
     
-    <content type="html"><![CDATA[<p>##1.使用mybatis的page，Ipage查询时若mapper直接查出Page<VO>类型，会自动查符合记录总数SELECT COUNT（1）<br>但这个自动查总数不支持order by 语句中的条件，代码如下，order by内的参数在自动查时会被视为多余参数报错<br>                                 <choose><br>            <when test="userId != null"><br>                order by(case when create_by = #{userId} then 1 else 2 end), create_time desc<br>            </when><br>            <otherwise><br>                order by m.create_time desc<br>            </otherwise><br>        </choose><br>##2.解决方案：<br>      1.使用自写select COUNT（1）函数，不使用自动配置，分两个mapper接口查询list与总记录数，在impl层装配page；</VO></p>]]></content>
+    <content type="html"><![CDATA[<p>##1.使用mybatis的page，Ipage查询时若mapper直接查出Page<VO>类型，会自动查符合记录总数SELECT COUNT（1）<br>但这个自动查总数不支持order by 语句中的条件，代码如下，order by内的参数在自动查时会被视为多余参数报错<br>                                 <choose><br>            <when test="userId != null"><br>                order by(case when create_by = #{userId} then 1 else 2 end), create_time desc<br>            </when><br>            <otherwise><br>                order by m.create_time desc<br>            </otherwise><br>        </choose><br>##2.解决方案：<br>      1.使用自写select COUNT（1）函数，不使用自动配置，分两个mapper接口查询list与总记录数，在impl层装配page；<br>       这样写order by(case when create_by = #{userId} then 1 else 2 end), create_time desc也是可行的</VO></p><p>##3.字符串替换<br>默认情况下，使用#{}格式的语法会导致MyBatis创建预处理语句属性并以它为背景设置安全的值（比如?）。这样做很安全，很迅速也是首选做法，有时你只是想直接在SQL语句中插入一个不改变的字符串。比如，像ORDER BY，你可以这样来使用：<br>ORDER BY ${columnName}<br>这里MyBatis不会修改或转义字符串。<br>重要：接受从用户输出的内容并提供给语句中不变的字符串，这样做是不安全的。这会导致潜在的SQL注入攻击，因此你不应该允许用户输入这些字段，或者通常自行转义并检查。<br>若使用IPage或page直接在mapper查出时，会自动生成算一个select COUNT（1）统计符合条件记录数，<br>自动生成的select count（1）的sql中也许导致#{}传参会有？替换，这时传入值，order  by 后更固定字段会出问题？</p>]]></content>
     
     
       
