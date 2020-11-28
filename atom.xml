@@ -6,7 +6,7 @@
   <link href="http://hexiaodong1234.github.io/atom.xml" rel="self"/>
   
   <link href="http://hexiaodong1234.github.io/"/>
-  <updated>2020-11-28T00:33:47.229Z</updated>
+  <updated>2020-11-28T02:20:48.885Z</updated>
   <id>http://hexiaodong1234.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>“ideaj自用快捷键记录”</title>
+    <link href="http://hexiaodong1234.github.io/2020/11/28/%E2%80%9Cideaj%E8%87%AA%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%B0%E5%BD%95%E2%80%9D/"/>
+    <id>http://hexiaodong1234.github.io/2020/11/28/%E2%80%9Cideaj%E8%87%AA%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%B0%E5%BD%95%E2%80%9D/</id>
+    <published>2020-11-28T02:11:58.000Z</published>
+    <updated>2020-11-28T02:20:48.885Z</updated>
+    
+    <content type="html"><![CDATA[<p>##1.快捷行注释：ctrl+/<br>       快捷块注释：ctrl+//</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;##1.快捷行注释：ctrl+/&lt;br&gt;       快捷块注释：ctrl+//&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>“Mybatis的Ipage,page分页使用加上复杂sql所遇问题记录”</title>
